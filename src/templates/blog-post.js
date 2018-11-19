@@ -1,11 +1,10 @@
 import React from 'react'
 import Helmet from 'react-helmet'
 import { Link, graphql } from 'gatsby'
+import Img from 'gatsby-image'
 import get from 'lodash/get'
 
-import Bio from '../components/Bio'
 import Layout from '../components/layout'
-import { rhythm, scale } from '../utils/typography'
 
 class BlogPostTemplate extends React.Component {
   render() {
@@ -21,36 +20,36 @@ class BlogPostTemplate extends React.Component {
           meta={[{ name: 'description', content: siteDescription }]}
           title={`${post.frontmatter.title} | ${siteTitle}`}
         />
-        <div className="container">
-          <h1>{post.frontmatter.title}</h1>
+        <div className="container ">
+          <div className="hero_text">
+            <h1>Projekt.</h1>
+            <ul className="row">
+              <li className="col-xs-4">Case</li>
+              <li className="col-xs-4">Service</li>
+              <li className="col-xs-4">Webbplatsen</li>
+            </ul>
+          </div>
         </div>
-        <p
-          style={{
-            ...scale(-1 / 5),
-            display: 'block',
-            marginBottom: rhythm(1),
-            marginTop: rhythm(-1),
-          }}
-        >
-          {post.frontmatter.date}
-        </p>
-        <div dangerouslySetInnerHTML={{ __html: post.html }} />
-        <hr
-          style={{
-            marginBottom: rhythm(1),
-          }}
-        />
-        <Bio />
 
-        <ul
-          style={{
-            display: 'flex',
-            flexWrap: 'wrap',
-            justifyContent: 'space-between',
-            listStyle: 'none',
-            padding: 0,
-          }}
-        >
+        <section className="post">
+          <Img fluid={post.frontmatter.image.childImageSharp.fluid} />
+          <div className="container_post_page">
+            <div className="card ">
+              <h1>{post.frontmatter.title}</h1>
+              <h2>{siteDescription}</h2>
+              <p style={{ color: 'red' }}>{post.frontmatter.date}</p>
+            </div>
+            <article className="row center-xs end-md end-lg">
+              <div
+                className="post_content col-xs-11 col-md-8"
+                dangerouslySetInnerHTML={{ __html: post.html }}
+              />
+            </article>
+            <hr style={{}} />
+          </div>
+        </section>
+
+        <ul style={{}}>
           <li>
             {previous && (
               <Link to={previous.fields.slug} rel="prev">
@@ -88,6 +87,16 @@ export const pageQuery = graphql`
       frontmatter {
         title
         date(formatString: "MMMM DD, YYYY")
+        image {
+          childImageSharp {
+            resize(width: 1280, height: 700) {
+              src
+            }
+            fluid(maxWidth: 1280) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
       }
     }
   }

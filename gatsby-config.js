@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Starter Blog',
+    title: 'Titeln hämtas inte härifrån',
     author: 'Kyle Mathews',
     description: 'A starter blog demonstrating what Gatsby can do.',
     siteUrl: 'https://gatsbyjs.github.io/gatsby-starter-blog/',
@@ -14,6 +14,7 @@ module.exports = {
         name: 'pages',
       },
     },
+
     {
       resolve: `gatsby-transformer-remark`,
       options: {
@@ -38,6 +39,7 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    `gatsby-plugin-sass`,
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
@@ -60,9 +62,9 @@ module.exports = {
     `gatsby-plugin-offline`,
     `gatsby-plugin-react-helmet`,
     {
-      resolve: 'gatsby-plugin-typography',
+      resolve: `gatsby-plugin-google-fonts`,
       options: {
-        pathToConfigModule: 'src/utils/typography',
+        fonts: [`roboto:300,400,500,700`],
       },
     },
   ],
