@@ -19,6 +19,13 @@ class Navigation extends React.Component {
             </nav>
           </div>
 
+          <div className="menu-btn">
+            <span className="btn-line" id="one">
+              test
+            </span>
+            <span className="btn-line" id="two" />
+            <span className="btn-line" id="three" />
+          </div>
           <div className="col-xs-offset-4 ">
             <span className="mail_adress">E: roypers89@gmail.com</span> <br />
             <span className="mail_adress">T: +46 735747926</span>

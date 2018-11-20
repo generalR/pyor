@@ -29,8 +29,8 @@ class BlogIndex extends React.Component {
           />
 
           <div className="container">
-            <div className="row start-sm start-md start-lg hero_text_start_page">
-              <div className="col-xs-12 col-sm-12 col-md-12 col-lg-10 hero_text">
+            <div className="row start-sm start-md start-lg hero_text">
+              <div className="col-xs-12 col-sm-12 col-md-12 col-lg-10 ">
                 <h1>Digital designer.</h1>
 
                 <h2>
@@ -39,10 +39,9 @@ class BlogIndex extends React.Component {
                   undervisningsyftet på bland annat Karlstad universitet och
                   Kristanstads universitet. Några av dessa kan du se här (Länk).
                 </h2>
-
-                <Link className="se_mer_link" to={'/cv'}>
-                  se mer
-                </Link>
+                <div className="se_mer_link">
+                  <Link to={'/cv'}>Se mer</Link>
+                </div>
               </div>
             </div>
           </div>
