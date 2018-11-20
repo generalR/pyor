@@ -13,6 +13,9 @@ class BlogPostTemplate extends React.Component {
     const siteDescription = post.excerpt
     const { previous, next } = this.props.pageContext
 
+    const menuBtn = document.querySelector('.menu-btn')
+    console.log(menuBtn)
+
     return (
       <Layout location={this.props.location}>
         <Helmet

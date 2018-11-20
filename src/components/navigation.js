@@ -3,6 +3,8 @@ import { Link } from 'gatsby'
 
 class Navigation extends React.Component {
   render() {
+    const menuBtn = document.querySelector('.menu-btn')
+    console.log(menuBtn)
     return (
       <header className="container" id="header_container_post">
         <div className="logo_wrapper">
@@ -20,11 +22,9 @@ class Navigation extends React.Component {
           </div>
 
           <div className="menu-btn">
-            <span className="btn-line" id="one">
-              test
-            </span>
-            <span className="btn-line" id="two" />
-            <span className="btn-line" id="three" />
+            <div className="btn-line" />
+            <div className="btn-line" />
+            <div className="btn-line" />
           </div>
           <div className="col-xs-offset-4 ">
             <span className="mail_adress">E: roypers89@gmail.com</span> <br />

@@ -18,31 +18,21 @@ p {
   line-height: 32px;
   letter-spacing: 0.2px;
 }
-
+/*-----Menu -----*/
+.menu_wrapper {
+  position: relative;
+}
 .menu-btn {
   position: absolute;
-  top: 6%;
-  left: 4%;
-  width: 59px;
-  height: 59px;
-  border-radius: 50%;
-  border: 0;
-  background: #f0f0f0;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  outline: none;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+  left: 5%;
+  top: -5px;
+  cursor: pointer;
   /*width: 59px;
   height: 59px;
   border-radius: 50%;
   border: 0;
   background: #f0f0f0;
+  
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -53,16 +43,29 @@ p {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  -webkit-transform: scale(0);
-  transform: scale(0);
-  -webkit-transition: background-color 0.1s ease-in-out,
-    -webkit-transform 0.1s ease-in-out;
-  transition: background-color 0.1s ease-in-out,
-    -webkit-transform 0.1s ease-in-out;
-  transition: background-color 0.1s ease-in-out, transform 0.1s ease-in-out;
-  transition: background-color 0.1s ease-in-out, transform 0.1s ease-in-out,
-    -webkit-transform 0.1s ease-in-out; */
+  position: relative;
+  */
 }
+
+.btn-line {
+  width: 28px;
+  height: 3px;
+  margin-top: 3px;
+  background: #000;
+
+  /*position: absolute;
+
+  top: 20px;
+  left: 21px;
+  display: block;
+  width: 17px;
+  height: 1px;
+  
+  -webkit-transform: translate3d(0, 3px, 0);
+  transform: translate3d(0, 3px, 0);
+*/
+}
+
 .container {
   width: 1200px;
   max-width: 94%;
@@ -425,7 +428,7 @@ h2 {
     -webkit-transform: none;
     transform: none;
     top: 48px;
-
+    cursor: pointer;
     font-size: 34px;
 
     fill: #020203;
