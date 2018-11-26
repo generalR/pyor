@@ -17,7 +17,7 @@ body {
 
 p {
   font-weight: 300;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 32px;
   letter-spacing: 0.2px;
 }
@@ -48,7 +48,7 @@ p {
   margin-bottom: 11vh;
 
   h1 {
-    margin: 0 0 50px -10px;
+    margin: 0 0 50px -7px;
     padding: 0;
     font-size: 100px;
     font-weight: 300;
@@ -209,7 +209,7 @@ header {
   margin-right: 5%;
   margin-left: 5%;
   .card-content {
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
   }
 
@@ -219,7 +219,7 @@ header {
   }
   h2 {
     display: inline;
-    font-size: 34px;
+    font-size: 24px;
     line-height: 40px;
     letter-spacing: -1px;
   }
@@ -262,7 +262,7 @@ header {
   .card {
     width: 75%;
     max-width: 100%;
-    margin: -62px auto 33px calc(0% + 0px);
+    // margin: -62px auto 33px calc(0% + 0px);
     padding-left: 5%; //padding-left: 100px;
     padding-right: 5%;
   }
@@ -270,7 +270,7 @@ header {
     text-align: left;
   }
   .container {
-    overflow: visible;
+    overflow-x: hidden;
   }
 }
 ul {
@@ -287,15 +287,20 @@ ul {
     margin-right: 30px;
   }
 }
+.container_post_page {
+  .row {
+    margin: 0;
+  }
+}
 .post_content {
-  width: 100%;
+  width: 80%;
   //max-width: 500px;
-  display: block;
+  //display: block;
   //margin: 0 calc(8% + 32px) 36px 300px;
   // margin: 0px calc(0% + 0px) 36px 300px;
   font-weight: 300;
-
-  font-size: 19px;
+  overflow-x: hidden;
+  font-size: 16px;
   line-height: 26px;
 }
 h2 {
@@ -395,6 +400,7 @@ h2 {
     h1 {
       margin-bottom: 30px;
       font-size: 40px;
+      margin: 0 0 50px 0px;
     }
     h2 {
       text-align: left;
@@ -433,7 +439,7 @@ h2 {
     padding-left: 5%;
   }
   #logo {
-    top: 55px;
+    top: 10%;
     font-size: 24px;
   }
   .card {
@@ -446,8 +452,9 @@ h2 {
     z-index: 2;
     position: absolute;
     left: 5%;
-    top: 5%;
+    top: 10%;
     cursor: pointer;
+    overflow: hidden;
 
     .btn-line {
       width: 28px;
