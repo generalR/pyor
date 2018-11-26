@@ -9,7 +9,7 @@ exports.onRouteUpdate = () => {
   /* skulle ev. kunna lägga jquery koden här för att på varje onRouteUpdate
   köra koden. Alt. lägga den i layout för att på såvis få in den i varje layout.
   */
-  const menuBtn = document.querySelector('.menu-btn')
+  /*const menuBtn = document.querySelector('.menu-btn')
   const menu = document.querySelector('.menu')
   const menuNav = document.querySelector('.menu-nav')
   const navItems = document.querySelectorAll('.nav-item')
@@ -34,15 +34,23 @@ exports.onRouteUpdate = () => {
       showMenu = false
     }
   }
+*/
+  /*
+  if (typeof window !== 'undefined') {
+    document.querySelector('.navbutton').addEventListener('click', openNav)
 
-  const navbutton = document.querySelector('.navbutton')
-  console.log(navbutton)
-  navbutton.addEventListener('click', openNav)
-
-  function openNav() {
-    console.log('inne i nav')
-    document.getElementById('myNav').style.width = '100%'
-  }
+    function openNav() {
+      let myNav = document.getElementById('myNav')
+      if ((myNav.style.width = '0%')) {
+        myNav.style.width = '100%'
+      } else {
+        if ((myNav.style.width = '100%')) {
+          myNav.style.width = '0%'
+        }
+        console.log('else')
+      }
+    }
+  }*/
 
   let $
   if (typeof window !== `undefined`) {
@@ -50,7 +58,11 @@ exports.onRouteUpdate = () => {
   }
 
   $(document).ready(function() {
-    $('h1').click(function() {})
+    console.log('document.ready')
+    $('.navbutton').click(function() {
+      console.log('navbutton cklik')
+      console.log($('overlay').slideDown())
+    })
   })
 
   console.log('-------------------------------------onRouteUpdate')
