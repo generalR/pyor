@@ -59,10 +59,15 @@ exports.onRouteUpdate = () => {
 
   $(document).ready(function() {
     console.log('document.ready')
-    $('.navbutton').click(function() {
+    $('.toggle').click(function() {
+      console.log('toggle cklik')
+      $('.mobile-nav').toggleClass('active')
+    })
+
+    /*$('.navbutton').click(function() {
       console.log('navbutton cklik')
       console.log($('overlay').slideDown())
-    })
+    })*/
   })
 
   console.log('-------------------------------------onRouteUpdate')

@@ -345,26 +345,30 @@ h2 {
     padding: 0;
     position: fixed;
     top: 0;
-    left: 0%;
+    left: -100%;
     width: 100%;
-    height: 100%;
-    background: red;
+    height: 80vh;
     z-index: 1;
-    transform: 0.5s;
+    transition: 0.5s;
     .ul {
       margin: 0;
       padding: 0;
       position: absolute;
       top: 50%;
       left: 50%;
-      transform: translate(-50%, -50%);
+      transition: translate(-50%, -50%);
       a {
         display: block;
-        font-size: 20em;
+        font-size: 50em;
         padding: 2rem;
         text-align: left;
       }
     }
+  }
+  .active {
+    left: 0;
+    overflow: auto;
+    background-color: #fff;
   }
   .main_nav_wrapper {
     // padding-left: 2%;
