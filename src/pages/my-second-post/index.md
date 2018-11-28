@@ -1,6 +1,7 @@
 ---
 title: My Second Post!
-description: 'Contemporary Participatory Design challenges'
+subtitle: 'Contemporary Participatory Design challenges'
+description: 'This article is part of a new series in which our Accessibility, Anti-Discrimination, Localization, and Trust teams will share how we define inclusive design practices at Airbnb, our ongoing work to design solutions for global communities, and lessons we’re learning along the way.'
 date: '2015-05-06T23:46:37.121Z'
 image: 'wallpaper1.jpg'
 ---

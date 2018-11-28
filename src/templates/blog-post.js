@@ -32,27 +32,32 @@ class BlogPostTemplate extends React.Component {
               <li className="col-xs-4">Webbplatsen</li>
             </ul>
           </div>
-        </div>
 
-        <section className="post">
-          <Img fluid={post.frontmatter.image.childImageSharp.fluid} />
-          <div className="container_post_page ">
-            <div className="post-card">
-              <h1>{post.frontmatter.title}</h1>
-              <h3>{post.frontmatter.description}</h3>
-              <p>{siteDescription}</p>
-              {/* <p style={{ color: 'red' }}>{post.frontmatter.date}</p> */}
+          <section className="post">
+            <Img fluid={post.frontmatter.image.childImageSharp.fluid} />
+            <div className="container_post_page ">
+              <div className="post-card">
+                <h1>{post.frontmatter.title}</h1>
+                <h3>{post.frontmatter.subtitle}</h3>
+
+                {/*<p>{siteDescription}</p>*/}
+                {/* <p style={{ color: 'red' }}>{post.frontmatter.date}</p> */}
+              </div>
+              <article className="row center-xs center-md center-lg">
+                <div className="col-xs-11 col-md-7">
+                  <p className="article-intro">
+                    {post.frontmatter.description}
+                  </p>
+                  <div
+                    className="post_content "
+                    dangerouslySetInnerHTML={{ __html: post.html }}
+                  />
+                </div>
+              </article>
             </div>
-            <article className="row center-xs end-md end-lg">
-              <div
-                className="post_content col-xs-11 col-md-8"
-                dangerouslySetInnerHTML={{ __html: post.html }}
-              />
-            </article>
-            <hr style={{}} />
-          </div>
-        </section>
-
+          </section>
+        </div>
+        {/*
         <ul style={{}}>
           <li>
             {previous && (
@@ -69,6 +74,7 @@ class BlogPostTemplate extends React.Component {
             )}
           </li>
         </ul>
+        */}
       </Layout>
     )
   }
@@ -90,6 +96,7 @@ export const pageQuery = graphql`
       html
       frontmatter {
         title
+        subtitle
         description
         date(formatString: "MMMM DD, YYYY")
         image {

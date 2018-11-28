@@ -9,11 +9,6 @@ detta exempel rosa medium.muz.li/design-docs-6bb34589f7a9 . */
 html,
 body {
   font-family: 'roboto', 'sans-serif';
-
-  /*
-  background: linear-gradient(90deg, #fff 20px, transparent 1%) center,
-    linear-gradient(#fff 20px, transparent 1%) center, lightgray;
-  background-size: 22px 22px; */
 }
 
 p {
@@ -39,6 +34,8 @@ h3 {
 .container {
   width: 1200px;
   max-width: 94%;
+  padding-left: 2%;
+  padding-right: 2%;
   margin: 0 auto;
   overflow: hidden;
 }
@@ -113,17 +110,6 @@ svg {
     font-weight: 300;
   }
 }
-/*
-.menu_wrapper {
-  z-index: 2;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-}
-*/
 
 header {
   background: #fff;
@@ -237,30 +223,62 @@ header {
   }
 }
 
+/* Nya enskild post*/
+.post {
+  .gatsby-image-wrapper {
+    // display: block;
+    max-height: 506px;
+    width: 82%;
+    margin: 0 0 0 auto;
+  }
+  .post-card {
+    position: relative;
+    max-width: 100%;
+    width: 60%;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    flex: 1 1;
+    justify-content: space-between;
+    margin-top: -80px;
+    //   margin-right: 5%;
+    margin-left: 100px;
+    overflow-y: visible;
+  }
+  h1 {
+    margin-bottom: -14px;
+  }
+  .article-intro {
+    margin-left: 0px;
+    border-left: 1px solid #333;
+    padding-left: 3%;
+    text-align: left;
+    p {
+    }
+  }
+  article {
+    .post_content {
+      text-align: left;
+    }
+  }
+}
+
 .post-list {
-  //width: 100%;
-  //margin: 0 auto;
-  //display: flex;
-  //flex-wrap: wrap;
-  //flex-direction: row;
-  //flex: 0 0 50%;
   padding-left: 100px;
   .gatsby-image-wrapper {
     height: 350px !important;
   }
   .lab-post {
     width: 500px;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
     img {
       flex: 1;
     }
   }
 }
 
-/*senaste posts*/
-
 /*Enskild post*/
-
+/*
 .post-card {
   position: relative;
   max-width: 100%;
@@ -279,13 +297,33 @@ header {
     max-height: 506px;
     width: 100%;
     margin-left: 320px;
+    width: 83%;
+    margin: 0 0 0 auto;
   }
 
   article {
     text-align: left;
+    .post_content {
+      width: 80%;
+      //max-width: 500px;
+      //display: block;
+      //margin: 0 calc(8% + 32px) 36px 300px;
+      // margin: 0px calc(0% + 0px) 36px 300px;
+      font-weight: 300;
+      overflow-x: hidden;
+      font-size: 16px;
+      line-height: 26px;
+    }
   }
   .container {
     overflow-x: hidden;
+  }
+}
+.container_post_page {
+  max-width: 1200px;
+  margin: 0 auto;
+  .row {
+    margin: 0;
   }
 }
 ul {
@@ -302,29 +340,7 @@ ul {
     margin-right: 30px;
   }
 }
-.container_post_page {
-  max-width: 1200px;
-  margin: 0 auto;
-  .row {
-    margin: 0;
-  }
-}
-
-.post_content {
-  width: 80%;
-  //max-width: 500px;
-  //display: block;
-  //margin: 0 calc(8% + 32px) 36px 300px;
-  // margin: 0px calc(0% + 0px) 36px 300px;
-  font-weight: 300;
-  overflow-x: hidden;
-  font-size: 16px;
-  line-height: 26px;
-}
-h2 {
-  font-weight: 300;
-}
-
+*/
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   .post {
@@ -430,7 +446,8 @@ h2 {
     }
   }
   .post-list {
-    padding-left: 4%;
+    //padding-left: 4%;
+    outline: 1px solid red;
   }
   .hero_arrow_wrap {
     display: none;
@@ -504,86 +521,32 @@ h2 {
       }
     }
   }
-  /* .menu {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    visibility: hidden;
-    &.show {
-      visibility: visible;
-    }
-    &-nav {
-      display: flex;
-      flex-flow: column wrap;
-      align-items: center;
-      justify-content: center;
-      float: left;
-      width: 100%;
-      overflow: hidden;
-    }
-  }*/
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (max-width: 992px) {
   .post {
     .gatsby-image-wrapper {
-   
       margin-left: 0;
     }
-}
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (max-width: 1200px) {
-}
-.toggle {
-}
-
-/* Position the content inside the overlay */
-.overlay-content {
-  position: relative;
-  top: 25%; /* 25% from the top */
-  width: 100%; /* 100% width */
-  text-align: center; /* Centered text/links */
-  margin-top: 30px; /* 30px top margin to avoid conflict with the close button on smaller screens */
-}
-
-/* The navigation links inside the overlay */
-.overlay a {
-  padding: 8px;
-  text-decoration: none;
-  font-size: 36px;
-  color: #818181;
-  display: block; /* Display block instead of inline */
-  transition: 0.3s; /* Transition effects on hover (color) */
-}
-
-/* When you mouse over the navigation links, change their color */
-.overlay a:hover,
-.overlay a:focus {
-  color: #f1f1f1;
-}
-
-/* Position the close button (top right corner) */
-.overlay .closebtn {
-  position: absolute;
-  top: 20px;
-  right: 45px;
-  font-size: 60px;
-}
-
-/* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
-@media screen and (max-height: 450px) {
-  .overlay a {
-    font-size: 20px;
   }
-  .overlay .closebtn {
-    font-size: 40px;
-    top: 15px;
-    right: 35px;
+
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (max-width: 1200px) {
+  }
+
+  /* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
+  @media screen and (max-height: 450px) {
+    .overlay a {
+      font-size: 20px;
+    }
+    .overlay .closebtn {
+      font-size: 40px;
+      top: 15px;
+      right: 35px;
+    }
   }
 }
-
 /*
     .card h2{
     display: inline;
