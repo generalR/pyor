@@ -36,11 +36,12 @@ class BlogPostTemplate extends React.Component {
 
         <section className="post">
           <Img fluid={post.frontmatter.image.childImageSharp.fluid} />
-          <div className="container_post_page">
-            <div className="card ">
+          <div className="container_post_page ">
+            <div className="post-card">
               <h1>{post.frontmatter.title}</h1>
-              <h2>{siteDescription}</h2>
-              <p style={{ color: 'red' }}>{post.frontmatter.date}</p>
+              <h3>{post.frontmatter.description}</h3>
+              <p>{siteDescription}</p>
+              {/* <p style={{ color: 'red' }}>{post.frontmatter.date}</p> */}
             </div>
             <article className="row center-xs end-md end-lg">
               <div
@@ -89,6 +90,7 @@ export const pageQuery = graphql`
       html
       frontmatter {
         title
+        description
         date(formatString: "MMMM DD, YYYY")
         image {
           childImageSharp {

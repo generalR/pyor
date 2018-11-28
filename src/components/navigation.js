@@ -52,7 +52,7 @@ class Navigation extends React.Component {
             <span className="mail_adress">T: +46 735747926</span>
           </div>
         </div>
-        *
+
         {/*   <div className="row menu_wrapper menu">
           <div className="col-xs-4  ">
             <nav id="main_nav">

@@ -66,11 +66,17 @@ class BlogIndex extends React.Component {
                   </Link>
                   <div className="card">
                     <div className="card-content">
-                      <h3>
-                        {/* <Link to={node.fields.slug}>{title}</Link> */}
+                      {/*  <h3>
+                        <Link to={node.fields.slug}>{title}</Link>
                       </h3>
-                      <small>{node.frontmatter.date}</small>
-                      <p dangerouslySetInnerHTML={{ __html: node.excerpt }} />
+                      <small>{node.frontmatter.date}</small> */}
+
+                      <h1
+                        dangerouslySetInnerHTML={{
+                          __html: title,
+                        }}
+                      />
+                      <h2>{node.frontmatter.description}</h2>
                     </div>
                   </div>
                 </article>
@@ -120,13 +126,14 @@ export const pageQuery = graphql`
       edges {
         node {
           id
-          excerpt
+          excerpt(pruneLength: 25)
           fields {
             slug
           }
           frontmatter {
             date(formatString: "DD MMMM, YYYY")
             title
+            description
             image {
               childImageSharp {
                 fluid(maxWidth: 1280, grayscale: true) {

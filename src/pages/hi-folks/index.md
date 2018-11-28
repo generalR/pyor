@@ -1,5 +1,6 @@
 ---
 title: New Beginnings
+description: 'Thinking Contemporary Participatory Design challenges'
 date: '2015-05-28T22:40:32.169Z'
 image: 'wallpaper2.jpg'
 ---
