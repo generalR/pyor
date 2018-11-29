@@ -1,6 +1,7 @@
 ---
 title: 'Design Things and Design Thinking:'
 subtitle: 'Contemporary Participatory Design Challenges'
+label: 'Uppgiften'
 description: 'This article is part of a new series in which our Accessibility, Anti-Discrimination, Localization, and Trust teams will share how we define inclusive design practices at Airbnb, our ongoing work to design solutions for global communities, and lessons we’re learning along the way.'
 date: '2015-05-01T22:12:03.284Z'
 image: 'lamp.jpg'

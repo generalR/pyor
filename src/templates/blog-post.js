@@ -43,11 +43,16 @@ class BlogPostTemplate extends React.Component {
                 {/*<p>{siteDescription}</p>*/}
                 {/* <p style={{ color: 'red' }}>{post.frontmatter.date}</p> */}
               </div>
+              <div className="hero_arrow">
+                <div className="hero_arrow_wrap" />
+              </div>
               <article className="row center-xs center-md center-lg">
-                <div className="col-xs-11 col-md-7">
+                <div className="col-lg-7">
                   <p className="article-intro">
+                    <p className="label">{post.frontmatter.label}</p>
                     {post.frontmatter.description}
                   </p>
+
                   <div
                     className="post_content "
                     dangerouslySetInnerHTML={{ __html: post.html }}
@@ -97,6 +102,7 @@ export const pageQuery = graphql`
       frontmatter {
         title
         subtitle
+        label
         description
         date(formatString: "MMMM DD, YYYY")
         image {

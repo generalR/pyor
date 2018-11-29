@@ -1,9 +1,10 @@
 ---
 title: Tvetydiga koncept i en kravspecifikation
-subtitle: 'Thinking Contemporary Participatory Design challenges'
-description: 'Mobile First And Responsive Design'
+subtitle: 'Mobile First And Responsive Design'
+label: 'Uppgiften'
+description: 'Här ska det komma en förklaring på vad detta är. ftersom webbdesign är relativt nytt område lånas begrepp från det närbesläktade området grafisk design. Browserfönstret kallas till exempel för “canvas” och begreppet “whitespace” används för att beskriva tomma ytor på canvasen (Marcotte, 2011, 2). Samtidigt som IT-branschen utvecklas snabbt, uppstår nya begrepp och koncept för att beskriva lösningar på problem. Exempel på koncept är “Responsive Design” och “Mobile First”. '
 date: '2015-05-28T22:40:32.169Z'
-image: 'wallpaper2.jpg'
+image: 'tve.png'
 ---
 
 ## Introduktion
