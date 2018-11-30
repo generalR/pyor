@@ -24,9 +24,18 @@ class BlogPostTemplate extends React.Component {
           <div className="hero_text">
             <h1>Projekt.</h1>
             <ul className="row">
-              <li className="col-xs-4">Case</li>
-              <li className="col-xs-4">Service</li>
-              <li className="col-xs-4">Webbplatsen</li>
+              <li className="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                <p className="type-of-case-label">Case</p>
+                <p className="case-info-label">Test</p>
+              </li>
+              <li className="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                <p className="type-of-case-label">Service</p>
+                <p className="case-info-label">Test</p>
+              </li>
+              <li className="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                <p className="type-of-case-label">Webbplatsen</p>
+                <p className="case-info-label">Test</p>
+              </li>
             </ul>
           </div>
 

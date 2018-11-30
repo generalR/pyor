@@ -64,8 +64,19 @@ h3 {
   }
   ul {
     list-style-type: none;
-
     padding: 0;
+  }
+  .type-of-case-label {
+    font-size: 13px;
+    line-height: 22px;
+    letter-spacing: 0.5px;
+    opacity: 0.7;
+    margin-bottom: 0;
+  }
+  .case-info-label {
+    margin-top: 0;
+    letter-spacing: 0.5px;
+    font-size: 18px;
   }
 }
 .hero_arro {
@@ -155,24 +166,7 @@ header {
 #main_nav a:first-child {
   margin-left: 0px;
 }
-/*
-.introText {
-  padding-top: 30vh;
-  text-align: left;
 
-  h1 {
-    font-size: 4rem;
-
-    font-weight: 700;
-    color: #a3c0be;
-  }
-  p {
-    margin-top: 25px;
-
-    font-weight: 300;
-  }
-}
-*/
 .se_mer_link {
   text-align: right;
   margin-top: 50px;
@@ -259,6 +253,12 @@ header {
     max-height: 506px;
     width: 82%;
     margin: 0 0 0 auto;
+  }
+  .case-info-label {
+    font-size: 13px;
+    line-height: 22px;
+    letter-spacing: 0.5px;
+    opacity: 0.7;
   }
   .post-card {
     position: relative;
@@ -491,6 +491,7 @@ header {
     }
     .gatsby-image-wrapper {
       margin-left: 0;
+      width: 100%;
     }
     .article-intro {
       margin-bottom: 100px;
