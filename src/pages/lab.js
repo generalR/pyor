@@ -24,7 +24,7 @@ class BlogIndex extends React.Component {
         />
         <div className="container">
           <div className="row start-sm start-md start-lg hero_text">
-            <div className="col-xs-12 col-sm-12 col-md-8 col-lg-8">
+            <div className="col-xs-12 col-sm-12 col-md-8 col-lg-10">
               <h1>Projekt.</h1>
               <h2>
                 På den här sidan hittar du en blandning av de webbplatser jag
@@ -63,22 +63,23 @@ class BlogIndex extends React.Component {
                       className="eq"
                       fluid={node.frontmatter.image.childImageSharp.fluid}
                     />
-                  </Link>
-                  <div className="card">
-                    <div className="card-content">
-                      {/*  <h3>
+
+                    <div className="card">
+                      <div className="card-content">
+                        {/*  <h3>
                         <Link to={node.fields.slug}>{title}</Link>
                       </h3>
                       <small>{node.frontmatter.date}</small> */}
 
-                      <h1
-                        dangerouslySetInnerHTML={{
-                          __html: title,
-                        }}
-                      />
-                      <h2>{node.frontmatter.description}</h2>
+                        <h1
+                          dangerouslySetInnerHTML={{
+                            __html: title,
+                          }}
+                        />
+                        <h2>{node.frontmatter.subtitle}</h2>
+                      </div>
                     </div>
-                  </div>
+                  </Link>
                 </article>
               )
             })}
@@ -126,13 +127,14 @@ export const pageQuery = graphql`
       edges {
         node {
           id
-          excerpt(pruneLength: 25)
+          excerpt(pruneLength: 10)
           fields {
             slug
           }
           frontmatter {
             date(formatString: "DD MMMM, YYYY")
             title
+            subtitle
             description
             image {
               childImageSharp {

@@ -13,9 +13,6 @@ class BlogPostTemplate extends React.Component {
     const siteDescription = post.excerpt
     const { previous, next } = this.props.pageContext
 
-    const menuBtn = document.querySelector('.menu-btn')
-    console.log(menuBtn)
-
     return (
       <Layout location={this.props.location}>
         <Helmet
@@ -47,7 +44,7 @@ class BlogPostTemplate extends React.Component {
                 <div className="hero_arrow_wrap" />
               </div>
               <article className="row center-xs end-md center-lg">
-                <div className="col-md-8 col-lg-7">
+                <div className="col-xs-12 col-md-8 col-lg-offset-3">
                   <p className="article-intro">
                     <p className="label">{post.frontmatter.label}</p>
                     {post.frontmatter.description}
