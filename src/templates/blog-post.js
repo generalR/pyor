@@ -46,8 +46,8 @@ class BlogPostTemplate extends React.Component {
               <div className="hero_arrow">
                 <div className="hero_arrow_wrap" />
               </div>
-              <article className="row center-xs center-md center-lg">
-                <div className="col-lg-7">
+              <article className="row center-xs end-md center-lg">
+                <div className="col-md-8 col-lg-7">
                   <p className="article-intro">
                     <p className="label">{post.frontmatter.label}</p>
                     {post.frontmatter.description}
