@@ -62,12 +62,6 @@ class BlogPostTemplate extends React.Component {
               <article className="row center-xs end-md center-lg">
                 <div className="col-xs-12 col-md-8 col-lg-offset-3">
                   <p className="article-intro">
-                    <p className="label-1">{post.frontmatter.label1}</p>
-                    <p className="label-2">{post.frontmatter.label2}</p>
-                    <p className="label-3">{post.frontmatter.label3}</p>
-                    <p className="label-4">{post.frontmatter.label4}</p>
-                    <p className="label-5">{post.frontmatter.label5}</p>
-                    <p className="label-6">{post.frontmatter.label6}</p>
                     {post.frontmatter.description}
                   </p>
 

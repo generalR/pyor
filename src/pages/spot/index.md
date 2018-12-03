@@ -1,12 +1,11 @@
 ---
 title: "Spot"
-subtitle: 'Priming i kombination med användartester'
-label1: 'Case'
-label2: 'Metod'
-label3: 'Iteration 1'
-label4: 'Iteration 2'
-label5: 'Iteration 3'
-label6: 'Lösningen'
+subtitle: 'A spot to work out at'
+label2: ''
+label3: ''
+label4: ''
+label5: ''
+label6: ''
 description: 'The purpose of this test is to explore the very basic idea of a new app concept and to discover
 who the real user audience is. Via a basic prototype, new insights and ideas will be collected
 about possible future features of this product. The test result will work as a basis for further development
@@ -15,19 +14,57 @@ date: '2015-05-01T22:12:03.284Z'
 image: 'spot.png'
 ---
 
-### Introduction
+<p class="label-1">Case</p>
 
-<p class="myclass">This paragraph has a class "myclass"</p>
-Denna artikel lyfterde utmaningar som participatory designstår införutifrån ett, vad jag anser, något filosofiskt perspektiv.Artikeln stretchar på gränserna för vad både design ochparticipatorydesign är och kan vara.Författarna hävdar att en förflyttning från att designa things (objekt) till att designaThings(socio-material-sammansättningar) är en utmaning varje enskild designer liksom hela området står inför. Denna förflyttning menar författarna inte barainnebärdemest”traditionella”participatorydesignutmaningarnasom att illustrera användning före faktisk användning, utan också utmaningarna som att designa bortom det specifika projektet och vidare mot framtida intressentergenom att supporta dem i så kallad ”design afterdesign”.Detta innebär att vi ska förflytta vårtarbete frånden traditionella projektmodellen till något de kallar för infrastructuring design.För att konkretiseravad forskarnavill förmedla innebär detta att designers ska fokusera på sammankomsten av intressenter där det slutgiltiga målet inte är känt utan växer fram vari alla olika parter enskiltkan uppfyllaetteget mål. Detta nås också genom infrastructuringdesignvilket är ett synsätt som särskilt ska främja ”design after design”dådet är oerhört svårt att föreställa sig framtidaanvändning. Dessa utmaningar menar författarnaäven kan vara av intresse för design thinkingdå denna design filosofi delar många av participatorydesignsförhållningsätt till design.
+The purpose of this test is to explore the very basic idea of a new app concept and to discover
+who the real user audience is. Via a basic prototype, new insights and ideas will be collected
+about possible future features of this product. The test result will work as a basis for further development
+of the application.
 
-###Q2: Strengths and weaknesses with the research design/method; used theory/theoretical framework and/or empirical data/cases, as well as conducted analysis in the article?
+<p class="label-2">Metod</p>
+<p>Genom tre iterationer.</p>
 
-Den absoluta styrkan i denna artikel är att forskarna lyckats framförasitt budskaptydligt, välmotiveradetankarochåsikter, trots att resan till budskapetpräglas av filosofiskatankegångar. Ska man likna detta fenomenvid något,är kulturförändring ordet, du vet inte att den pågår förrän i eftertidnär du tillåtsse tillbaka ochreflektera över den.Därav tror jagattdettafenomenförst måsteupplevas föratt sedankunnaartikuleraspå bästa sätt. Detta leder, samlat med forskarnas mångåriga erfarenhet,tillde observerade utmaningarna.Denna artikelinnehållersåledesinte någontydligmetodredogörelse,istället varvas forskarnas tesermed teori som väl motiverarderas argument.Vidare illustrerar forskarna fenomenetgenom två exempelvilket tar mig som läsare till en bättre förståelse för budskapet.Dock ären svaghet i artikeln inblandningenav designthinkingvilket stora delar av introduktionenägnas åtmennämnsbaraett fåtal gångersenarei artikeln.Forskarna menar att design thinking skulle stå inför samma utmaningar som participatory design vilket jag inte är100 procentenigi(Q5). Däravtillför inte design thinkingvinkelnnågotmer än att fungera somett”clickbait”.Slutligenhade jag också önskat mer konkreta förslag till fortsatt forskning och arbete för att utveckla detta då forskarna nu lämnar mycket öppetför egen tolkning. Troligtvis inväntar forskarna enpassaddesign thing.Sammantaget tycker jag att forskarna knyter samman tes, teori och deras erfarenhettill ett budskap som i slutändan är förståeligt.
+<p class="label-3">Iteration 1</p>
+
+Skulle de inte visa mig hur de gjorde för att söka efter träningsplatser.
+
+- Exploratory test av en app.
+- Intervju av användare efter testet.
+- Focus grupp för att genera ideer.
+
+<p class="label-4">Iteration 2</p>
+
+###Användartester
+
+Målet med det första användartestet var att samla in information om slutanvändarna och hur
+de idag går tillväga för att hitta nya platser att motionera på. Efter testet hölls en fokusgrupp
+där deltagarna diskuterade fritt om vilka funktioner de skulle vilja se i en framtida produkt.
+Detta genererade en rad insikter och idéer om vilka användarna är och i denna omgång har de
+idéer som troligast kommer att kunna nå en slutgiltig produkt gestaltats genomen en prototyp
+byggd med Adobe xd.
+
+- Användartest av prototyp byggd med Adobe XD.
+- Intervju av användare efter testet.
+- Focus grupp för att genera ideer.
+
+###Sammanfattning av tillvägagångsätt
+
+Detta användartest ämnar således testa hur väl användargränssnittet hjälper användarna att
+genomföra vanliga rutinuppgifter. Test genomfördes hemma hos användarna och de fick
+innan testet fylla i ett formulär med bakgrundsfrågor som bland annat fastställde vilka de är
+och deras tidigare erfarenhet (Rubin & Chisnell, 2008, 162). Sedan fick de genomföra en serie
+av rutinuppgifter och den datan fångades upp handlar om användarnas personliga tycke, antal
+slutförda uppgifter, kommentarer under sessionen. Efter testet svarade användarna på en fråga
+om hur de generellt upplevde produkten enligt en likert skala. Resultatet har analyserats för att
+verifiera att de idéer som implementerades i prototypen är förståeliga, samt för att identifiera
+potentiella svagheter att förbättra.
+
+###Q3: Lägg in en bild på prototypen
+
+<p class="label-5">Iteration 3</p>
+<p class="label-6">Lösningen</p>
 
 ###Q3:Research results in terms of contributions to the research community (incl. the rigor of these contributions) and implications for practice (incl. relevance)?
-
-Jag är inte helt säker på att jag är enigmed forskarnai det faktum att detärutmaningar som är direkt stundande för participatory design och designområdet. Fenomenetkännsför mignågot avlägsetsett utifrånett praktiskt perspektivsom praktiserande designer.Av artikeln får man som läsare inte heller någon känslaför hur allvarliga dessa utmaningar är och hur snart de måste handskas med. Idag, femårefteratt artikeln publicerats såkan jag konstatera att design Things inte har fått fästedå, i alla fall jag, inte stött på fenomenet. Jag är dock enig i att det är sunda värderingar och förhållningsätt som är
-Roy Perssonviktiga att ha med sig som forskande designer. Vidare kan det något filosofiska perspektivsom forskarna taravfärdassomobegripligt och icke applicerbart utifrån en praktisk synvinkeleller så kan det ses som en utveckling av participatorydesignspecifiktoch designområdeti stort.Som reflekterande designer väljer jag det senarealternativet.Även om argumentenkan anses vara av filosofiskkaraktärtillåterdettautsvävningarsom annars inte varit möjliga.Bland demest problematiskautmaningarna för en designer är attförställa sig framtida användning. Med design thingslösesnu dettagenom att förlänga designprocessenoch skifta fokus från things(objekt)till things (socio-material-sammansättningar).Lysande enligt min meningdå det minimerarpressen av att träffa rätt direkt som annars ärständigtnärvarande. Dessutomhar forskarna faktiskt lyckats att implementera fenomenet ett flertal gånger i ett flertal olika labbvilket tyder påatt det inte bara är teoretisktförsvarbart utan faktisktgörligtäveni praktiken.Således vidgar artikeln betydelsen av för vad participatorydesign och design kan varavilket tarforskningsområdet vidare.
 
 ###Q4: Balance between theoretical and empirical contributions?
 
