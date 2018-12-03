@@ -1,7 +1,12 @@
 ---
-title: test
+title: "Spot"
 subtitle: 'Priming i kombination med användartester'
-label: 'Case'
+label1: 'Case'
+label2: 'Metod'
+label3: 'Iteration 1'
+label4: 'Iteration 2'
+label5: 'Iteration 3'
+label6: 'Lösningen'
 description: 'The purpose of this test is to explore the very basic idea of a new app concept and to discover
 who the real user audience is. Via a basic prototype, new insights and ideas will be collected
 about possible future features of this product. The test result will work as a basis for further development
@@ -12,6 +17,7 @@ image: 'spot.png'
 
 ### Introduction
 
+<p class="myclass">This paragraph has a class "myclass"</p>
 Denna artikel lyfterde utmaningar som participatory designstår införutifrån ett, vad jag anser, något filosofiskt perspektiv.Artikeln stretchar på gränserna för vad både design ochparticipatorydesign är och kan vara.Författarna hävdar att en förflyttning från att designa things (objekt) till att designaThings(socio-material-sammansättningar) är en utmaning varje enskild designer liksom hela området står inför. Denna förflyttning menar författarna inte barainnebärdemest”traditionella”participatorydesignutmaningarnasom att illustrera användning före faktisk användning, utan också utmaningarna som att designa bortom det specifika projektet och vidare mot framtida intressentergenom att supporta dem i så kallad ”design afterdesign”.Detta innebär att vi ska förflytta vårtarbete frånden traditionella projektmodellen till något de kallar för infrastructuring design.För att konkretiseravad forskarnavill förmedla innebär detta att designers ska fokusera på sammankomsten av intressenter där det slutgiltiga målet inte är känt utan växer fram vari alla olika parter enskiltkan uppfyllaetteget mål. Detta nås också genom infrastructuringdesignvilket är ett synsätt som särskilt ska främja ”design after design”dådet är oerhört svårt att föreställa sig framtidaanvändning. Dessa utmaningar menar författarnaäven kan vara av intresse för design thinkingdå denna design filosofi delar många av participatorydesignsförhållningsätt till design.
 
 ###Q2: Strengths and weaknesses with the research design/method; used theory/theoretical framework and/or empirical data/cases, as well as conducted analysis in the article?

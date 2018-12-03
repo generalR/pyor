@@ -293,12 +293,41 @@ header {
   }
   article {
     position: relative;
-    .label {
+    .label-1,
+    .label-2,
+    .label-3,
+    .label-4,
+    .label-5,
+    .label-6 {
       position: absolute;
       left: 110px;
-      top: 0;
     }
+    .label-1 {
+      top: 100px;
+    }
+    .label-2 {
+      top: 200px;
+    }
+    .label-3 {
+      top: 300px;
+      position: relative;
+      left: 0px;
 
+      outline: 1px solid blue;
+    }
+    .label-4 {
+      top: 400px;
+    }
+    .label-5 {
+      top: 500px;
+      position: relative;
+      left: 0px;
+
+      outline: 1px solid blue;
+    }
+    .label-6 {
+      top: 600px;
+    }
     .post_content {
       text-align: left;
       margin-right: 100px;
