@@ -39,9 +39,6 @@ class BlogIndex extends React.Component {
                   undervisningsyftet på bland annat Karlstad universitet och
                   Kristanstads universitet. Några av dessa kan du se här (Länk).
                 </h2>
-                <div className="se_mer_link">
-                  <Link to={'/cv'}>Se mer</Link>
-                </div>
               </div>
             </div>
           </div>

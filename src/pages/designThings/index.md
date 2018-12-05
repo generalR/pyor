@@ -1,5 +1,5 @@
 ---
-title: 'Design Things and Design Thinking:'
+title: 'Design Things and Design Thinking'
 subtitle: 'Contemporary Participatory Design Challenges'
 label1: 'Case'
 label2: 'Metod'

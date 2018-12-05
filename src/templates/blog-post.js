@@ -29,7 +29,7 @@ class BlogPostTemplate extends React.Component {
         />
         <div className="container ">
           <div className="hero_text">
-            <h1>Projekt.</h1>
+            <h1>{post.frontmatter.title}</h1>
             <ul className="row">
               <li className="col-xs-12 col-sm-4 col-md-4 col-lg-4">
                 <p className="type-of-case-label">Case</p>

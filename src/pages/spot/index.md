@@ -1,6 +1,6 @@
 ---
 title: 'Spot'
-subtitle: 'A spot to work out at'
+subtitle: 'En plats att träna på'
 label2: ''
 label3: ''
 label4: ''
@@ -14,42 +14,69 @@ image: 'spot.png'
 <div class="label-container">
 <p class="label-1">Case</p>
 
-The purpose of this test is to explore the very basic idea of a new app concept and to discover
-who the real user audience is. Via a basic prototype, new insights and ideas will be collected
-about possible future features of this product. The test result will work as a basis for further development
-of the application.
+##Genomförande
+
+Iden till appen Spot uppkom i samband med en masterkurst på Karlstad universitet vari en uppgift bestod av att utforska och test ett design koncept. Genom tre iterationer undersöker jag om de rekryterade testpersonerna upplever samma problem som jag gör, nämligen att det är svårt och tidskrävande att i en ny stad eller land finna platser att träna på utomhus. Tre designsprintar med olika metoder för att generera krav har använts.
+
+  </div>
+
+<div class="label-container">
+<p class="label-2">Sprint 1</p>
+
+##Hur går användarna tillväga för att finna nya träningsplatser utomhus?
+
+Det första steget i detta test var att testpersonerna fick visa testmoderatorn hur de idag gör när de söker efter platser att träna på. Vidare geonfördes en så kallad “walk through” i en hypotetisk app byggd ned Adobe Xd. Detta gjordes för att ge testpersonerna en mentalmodell av applikationen innan de trädde in i en fokusgrupp för att fritt diskutera ideer och förslag på tänkbara funktioner som skulle kunna ta plats i en framtida produkt.
+
+###Metoder
+
+- Observations test
+- Exploratory test av en app
+- Intervju av användare efter testet
+
+- Focus grupp för att genera ideer
 
 </div>
 
 <div class="label-container">
-<p class="label-2">Metod</p>
+<p class="label-3">Sprint 2</p>
 
-Lorem Ipsum är en utfyllnadstext från tryck- och förlagsindustrin. Lorem ipsum har varit standard ända sedan 1500-talet, när en okänd boksättare tog att antal bokstäver och blandade dem för att göra ett provexemplar av en bok.
+##Är funktionaliteten av värde för användaren?
+
+Det nästföljande användartest baserades på resultaten av det första testet vilket lade grunden till en ny prototyp utvecklades i Adobe Xd. Gränssnittet baserades på de förslag och ideer som har allra största chans att nå en slutgiltig produkt från föregående test. Ett användartest genomfördes på denna prototyp där syftet var att undersöka hur väl användargränssnittet hjälper användarna att utföra vanliga rutinuppgifter, som till exempel att kunna navigera till en plats att motionera på.
+
+###Metoder
+
+- Prototyp i Adobe XD
+- Användartest
+- Intervju av användare efter testet
+
+  </div>
+
+<div class="label-container">
+<p class="label-4">Sprint 3</p>
+
+##Vilken information vill användaren egentligen se på en motionsplats?
+
+Detta sista användartestet i denna serie av tester har till syftet att undersöka vilken information användarna helst vill ha presenterad på en specifik motionsplats. Liksom i första användartestet planterades en mental modell hos testdeltagarna genom att en “walk through” genomfördes av ett tänkbart scenario som tar testpersonen till en motionsplats i appen.
+
+###Metoder
+
+- Prototyp i Adobe XD
+- Användartest - Prioriteringar av information som visas i appen
+
+- Intervju av användare efter testet
 
 </div>
 
 <div class="label-container">
-<p class="label-3">Iteration 1</p>
+<p class="label-5">Lösningen</p>
 
-Målet med det första användartestet var att samla in information om slutanvändarna och hur
-de idag går tillväga för att hitta nya platser att motionera på. Genom att bygga en enkel prototyp kunde detta undersökas. I detta användartest geonfördes en så kallad “walk through”. Detta gjordes för att ge testpersonerna en mentalmodell av applikationen innan de trädde in i en fokusgrupp för att fritt diskutera ideer och förslag på tänkbara funktioner som skulle kunna ta plats i en framtida produkt.
+##Spot - en plats att träna på.
 
-SKA DETTA VARA MED ELLER ÄR DET FÖR LÅNGT? Resultatet visade att användarna söker information antingen genom att googla eller att de på förhand känner till platsen- och vidare använder google för att inhämta om just den platsen. Såldes bekräftades att användarna inte har något alternativ till att googla och därmed finns också en möjlighet utveckla en tjänst som löser detta problem.
+Dessa tre sprintar resulterade visade
 
-- Exploratory test av en app.
-- Intervju av användare efter testet.
-- Focus grupp för att genera ideer.
+Den första sprinten visade genom ett explaratory test att användarna inte har någon specifik tjänst de vänder sig till när de ska söka efter nya platser att träna på. Vilket lade grunden för nästkommande sprintar vilka utforskade grundläggande funktionalitet (sprint 2) och vilken specifik information som användaren vill se på en specifik motinosplats (sprint 3). Nedan är en mockup på hur denna tjänst skulle se ut baserad på föregående sprintar.
 
-</div>
-
-<div class="label-container">
-<p class="label-4">Iteration 2</p>
-
-Det nästföljande användartest baserades på resultaten av det första vilket lade grunden till en prototyp utvecklades i Adobe xd. Gränssnittet baserades på de förslag och ideer som har allra största chans att nå en slutgiltig produkt. Ett användartest genomfördes på denna prototyp där syftet var att undersöka hur väl användargränssnittet hjälper användarna att utföra vanliga rutinuppgifter, som till exempel att kunna navigera till en plats att motionera på. Resultatet visade att användarna förstår hur användargränssnittet fungerar, dock uppkom andra problem att förbättra.
+<img src="spot-hel.png" alt="Spot: en plats att träna på">
 
 </div>
-
-###LÄGG IN EN BILD PÅ PROTOTYPEN (se bilaga 5 illustrerar skärmbilderna som utvecklades.)
-
-<p class="label-5">Iteration 3</p>
-<p class="label-6">Lösningen</p>

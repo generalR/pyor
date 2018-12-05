@@ -190,13 +190,18 @@ header {
   padding-left: 100px;
   .gatsby-image-wrapper {
     height: 300px !important;
+    //object-fit: contain !important;
   }
   .lab-post {
     width: 500px;
     margin-bottom: 100px;
-    img {
-      flex: 1;
+    picture {
+      img {
+        flex: 1;
+        object-fit: contain;
+      }
     }
+
     a {
       text-decoration: none;
       color: #000;
@@ -213,7 +218,7 @@ header {
   flex-direction: column;
   flex: 1;
   justify-content: space-between;
-  margin-top: -80px;
+  margin-top: -40px;
   margin-right: 5%;
   margin-left: 5%;
   .card-content {
@@ -224,9 +229,9 @@ header {
 
     h1 {
       font-weight: 300;
-      font-size: 22px;
+      font-size: 30px;
       margin-top: 0;
-      margin-bottom: -3px;
+      margin-bottom: 10px;
     }
     h2 {
       display: inline;
@@ -296,8 +301,18 @@ header {
       text-align: left;
       margin-right: 100px;
       position: relative;
+      h3 {
+        font-size: 20px;
+        font-weight: 300;
+        opacity: 1;
+        margin-top: 0px;
+        letter-spacing: 0.5px;
+
+        margin-top: 30px;
+      }
       .label-container {
-        outline: 3px solid red;
+        //  outline: 3px solid red;
+        margin-bottom: 100px;
       }
       blockquote {
         border-left: 1px solid #333;
@@ -312,27 +327,21 @@ header {
       .label-6 {
         position: absolute;
         left: -210px;
-        outline: 1px solid blue;
         margin: 0;
       }
-      .label-1 {
-        top: 0;
+      .gatsby-resp-image-wrapper {
+        padding: 0;
+        margin: 0;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19),
+          0 6px 6px rgba(0, 0, 0, 0.23);
       }
-      .label-2 {
-        //top: 150px;
+      .gatsby-resp-image-link {
+        margin: 50px 0 0 0;
+        padding: 0;
       }
-      .label-3 {
-        // top: 300px;
-      }
-      .label-4 {
-        //top: 400px;
-      }
-      .label-5 {
-        // top: 500px;
-      }
-      .label-6 {
-        // top: 600px;
-      }
+    }
+    .background {
+      background: red;
     }
   }
 }
@@ -534,15 +543,7 @@ header {
         position: static;
       }
     }
-    /*
-    .post article .post_content .label-1,
-    .post article .post_content .label-2,
-    .post article .post_content .label-3,
-    .post article .post_content .label-4,
-    .post article .post_content .label-5,
-    .post article .post_content .label-6 {
-      position: static;
-    }*/
+
     article {
       .post_content {
         .label-1,
@@ -552,7 +553,7 @@ header {
         .label-5,
         .label-6 {
           position: static;
-          outline: 1px solid blue;
+          //outline: 1px solid blue;
         }
       }
     }

@@ -7,33 +7,77 @@ label3: 'Iteration 1'
 label4: 'Iteration 2'
 label5: 'Iteration 3'
 label6: 'Lösningen'
-description: 'Denna webbplats är design av. En pilot '
+description: ''
 date: '2015-05-01T22:12:03.284Z'
 image: 'bilvarden.png'
 ---
 
-### Q1:Research question(s) or purpose(s) in relation to what research area or phenomenon?
+<div class="label-container">
+<p class="label-1">Case</p>
 
-Denna artikel lyfterde utmaningar som participatory designstår införutifrån ett, vad jag anser, något filosofiskt perspektiv.Artikeln stretchar på gränserna för vad både design ochparticipatorydesign är och kan vara.Författarna hävdar att en förflyttning från att designa things (objekt) till att designaThings(socio-material-sammansättningar) är en utmaning varje enskild designer liksom hela området står inför. Denna förflyttning menar författarna inte barainnebärdemest”traditionella”participatorydesignutmaningarnasom att illustrera användning före faktisk användning, utan också utmaningarna som att designa bortom det specifika projektet och vidare mot framtida intressentergenom att supporta dem i så kallad ”design afterdesign”.Detta innebär att vi ska förflytta vårtarbete frånden traditionella projektmodellen till något de kallar för infrastructuring design.För att konkretiseravad forskarnavill förmedla innebär detta att designers ska fokusera på sammankomsten av intressenter där det slutgiltiga målet inte är känt utan växer fram vari alla olika parter enskiltkan uppfyllaetteget mål. Detta nås också genom infrastructuringdesignvilket är ett synsätt som särskilt ska främja ”design after design”dådet är oerhört svårt att föreställa sig framtidaanvändning. Dessa utmaningar menar författarnaäven kan vara av intresse för design thinkingdå denna design filosofi delar många av participatorydesignsförhållningsätt till design.
+##Pilottest
 
-###Q2: Strengths and weaknesses with the research design/method; used theory/theoretical framework and/or empirical data/cases, as well as conducted analysis in the article?
+Bilvården är en protoyp som jag har byggde i samband med ett pilottest till en masterkurs på Karlstad universitet. inom psykologin finns ett begrepp som kallas priming vilket innebär att din perception påvekas av hur Huvudsyftet med denna prototyp är att undersöka om
 
-Den absoluta styrkan i denna artikel är att forskarna lyckats framförasitt budskaptydligt, välmotiveradetankarochåsikter, trots att resan till budskapetpräglas av filosofiskatankegångar. Ska man likna detta fenomenvid något,är kulturförändring ordet, du vet inte att den pågår förrän i eftertidnär du tillåtsse tillbaka ochreflektera över den.Därav tror jagattdettafenomenförst måsteupplevas föratt sedankunnaartikuleraspå bästa sätt. Detta leder, samlat med forskarnas mångåriga erfarenhet,tillde observerade utmaningarna.Denna artikelinnehållersåledesinte någontydligmetodredogörelse,istället varvas forskarnas tesermed teori som väl motiverarderas argument.Vidare illustrerar forskarna fenomenetgenom två exempelvilket tar mig som läsare till en bättre förståelse för budskapet.Dock ären svaghet i artikeln inblandningenav designthinkingvilket stora delar av introduktionenägnas åtmennämnsbaraett fåtal gångersenarei artikeln.Forskarna menar att design thinking skulle stå inför samma utmaningar som participatory design vilket jag inte är100 procentenigi(Q5). Däravtillför inte design thinkingvinkelnnågotmer än att fungera somett”clickbait”.Slutligenhade jag också önskat mer konkreta förslag till fortsatt forskning och arbete för att utveckla detta då forskarna nu lämnar mycket öppetför egen tolkning. Troligtvis inväntar forskarna enpassaddesign thing.Sammantaget tycker jag att forskarna knyter samman tes, teori och deras erfarenhettill ett budskap som i slutändan är förståeligt.
+  </div>
 
-###Q3:Research results in terms of contributions to the research community (incl. the rigor of these contributions) and implications for practice (incl. relevance)?
+<div class="label-container">
+<p class="label-2">Sprint 1</p>
 
-Jag är inte helt säker på att jag är enigmed forskarnai det faktum att detärutmaningar som är direkt stundande för participatory design och designområdet. Fenomenetkännsför mignågot avlägsetsett utifrånett praktiskt perspektivsom praktiserande designer.Av artikeln får man som läsare inte heller någon känslaför hur allvarliga dessa utmaningar är och hur snart de måste handskas med. Idag, femårefteratt artikeln publicerats såkan jag konstatera att design Things inte har fått fästedå, i alla fall jag, inte stött på fenomenet. Jag är dock enig i att det är sunda värderingar och förhållningsätt som är
-Roy Perssonviktiga att ha med sig som forskande designer. Vidare kan det något filosofiska perspektivsom forskarna taravfärdassomobegripligt och icke applicerbart utifrån en praktisk synvinkeleller så kan det ses som en utveckling av participatorydesignspecifiktoch designområdeti stort.Som reflekterande designer väljer jag det senarealternativet.Även om argumentenkan anses vara av filosofiskkaraktärtillåterdettautsvävningarsom annars inte varit möjliga.Bland demest problematiskautmaningarna för en designer är attförställa sig framtida användning. Med design thingslösesnu dettagenom att förlänga designprocessenoch skifta fokus från things(objekt)till things (socio-material-sammansättningar).Lysande enligt min meningdå det minimerarpressen av att träffa rätt direkt som annars ärständigtnärvarande. Dessutomhar forskarna faktiskt lyckats att implementera fenomenet ett flertal gånger i ett flertal olika labbvilket tyder påatt det inte bara är teoretisktförsvarbart utan faktisktgörligtäveni praktiken.Således vidgar artikeln betydelsen av för vad participatorydesign och design kan varavilket tarforskningsområdet vidare.
+##Hur går användarna tillväga för att finna nya träningsplatser utomhus?
 
-###Q4: Balance between theoretical and empirical contributions?
+Det första steget i detta test var att testpersonerna fick visa testmoderatorn hur de idag gör när de söker efter platser att träna på. Vidare geonfördes en så kallad “walk through” i en hypotetisk app byggd ned Adobe Xd. Detta gjordes för att ge testpersonerna en mentalmodell av applikationen innan de trädde in i en fokusgrupp för att fritt diskutera ideer och förslag på tänkbara funktioner som skulle kunna ta plats i en framtida produkt.
 
-Jag skulle säga att budskapet är övervägande del till praktiserande designers. Även om detta fenomen kan vara svårt att använda konkret i dagligtarbetetdå dettaärtvärt emot den jaktpå effektivitet somföretag vanligtvis eftersträvar.Jag tycker att man som designer ständigt skareflektera över vadman designarochframför allt till vilket syfte. Därav är förflyttningen från thing som objekt till Thing som socio-materiala-sammansättningaren viktig observation.Artikel vidgar betydelsenför vad design är och kan vara och i förlängningenvem man äroch vad man görsom designer.Till exempelär det omöjligt att föreställa sig hur en tjänst eller produkt kommer att användas i framtidenvilket öppnar upp för en förflyttning från projektform till infrastructuring designsomjagtycker låter sunt
+###Metoder
 
-###Q5: Limitations in knowledge contributions? What is the author(s) and your own suggestions for possible avenues in future research based on this article?
+- Observations test
+- Exploratory test av en app
+- Intervju av användare efter testet
 
-Denna artikel hanterarproblematikenutifrån ett filosofisktperspektiv när detalar om en förflyttningfrån thing (objekt)till thing (socio-materiala-sammansättningar).Dettafilosofiska perspektivtror jag kan vara en god start på utvecklingen av fenomenet.Menför att få detta att fungera även i näringslivetpå bredare front tror jag att forskning på dess praktiskatillämpbarhet måste utforskas. Vidaremenar forskarnaatt design thinkingförmodligen också möter samma utmaningar som participatory design görmen något de förglömmerär de kulturellaskillnaderna som finnsmellan våra länder. Då vår kultur i norden till stor del vilarpåen välutvecklad demokrati ligger möjligendetta förhållningsätt till designoss närmare än USA,därdesign thinking härör ifrån. Således skulle möjlig framtida forskning kunna besvara frågorom design things också är tillämpbart även i andra delar av världen.Dock tror jag att allra störst fokusbör liggapå forskning somger svar påresursåtgångoheffektivitet för att näringslivetska få intresse för design things. Med denna tydliga demokratiskaprägelnuppkommer också frågan om detta verkligen passar organisationer med vinst som främsta syfte?Den verkligt stora utmaningenför forskare blir att besvara hur detta skakunna implementeras i praktiken?Det är först då som det faktiskt kan bli något konkret och användbart, även utanför forskningsområdet. Slutligenställerjag mig kritiskt till ordvalet thing.Tyvärrförvirrar thing mer än vad det tillför. Till exempelmåstejag varje gång jag skaförklara innebördenav thing,börja förklara dess historiska resa, först då kan diskussionen tas vidare. Jag förstår dilemmati ordvaletefter att själv hafunderat över ett bättre passande ord,menjag hittar ingen bra ersättare.
+- Focus grupp för att genera ideer
 
-###Q6: Possibilities of using the article in your own Master thesis? In what way? What (else) can you learn from the article?
+</div>
 
-Det jag tar med mig från denna artikel är en helt ny typ av uppsats jag tidigare inte har stött på. Den största skillnadenfrån tidigare artiklar är tillexempel att det saknas en tydlig redogörelse för metodval ochartikeln har en något filosofisk karaktär. Detta är troligtvis inte något jag kommer att
-Roy Perssonanvända mig av,men ändå intressant att ta del av. Det är också intressant att se att en start på ett nytt fenomen kan motiveras utifrånett filosofisktperspektiv.Jag försöker alltidha ett öppet sinne som designer ochvilldärmedta till mig budskapetidenna artikeleftersom jag tror att det är ett sunt förhållningsättatt ha som designer. Särskiltatt stödja”design after design”då det är omöjligt att i detalj föreställa sig framtida användning.Jag har fram tills nu strävat efter att hitta det mest effektiva arbetssättetdådet alltid tycks vara en kamp mot tiden inom IS utveckling. Därför är en förflyttningfrån thing till Thing lite sköntdå pressenatt träffa rätt direktlättar en aning.
+<div class="label-container">
+<p class="label-3">Sprint 2</p>
+
+##Är funktionaliteten av värde för användaren?
+
+Det nästföljande användartest baserades på resultaten av det första testet vilket lade grunden till en ny prototyp utvecklades i Adobe Xd. Gränssnittet baserades på de förslag och ideer som har allra största chans att nå en slutgiltig produkt från föregående test. Ett användartest genomfördes på denna prototyp där syftet var att undersöka hur väl användargränssnittet hjälper användarna att utföra vanliga rutinuppgifter, som till exempel att kunna navigera till en plats att motionera på.
+
+###Metoder
+
+- Prototyp i Adobe XD
+- Användartest
+- Intervju av användare efter testet
+
+  </div>
+
+<div class="label-container">
+<p class="label-4">Sprint 3</p>
+
+##Vilken information vill användaren egentligen se på en motionsplats?
+
+Detta sista användartestet i denna serie av tester har till syftet att undersöka vilken information användarna helst vill ha presenterad på en specifik motionsplats. Liksom i första användartestet planterades en mental modell hos testdeltagarna genom att en “walk through” genomfördes av ett tänkbart scenario som tar testpersonen till en motionsplats i appen.
+
+###Metoder
+
+- Prototyp i Adobe XD
+- Användartest - Prioriteringar av information som visas i appen
+
+- Intervju av användare efter testet
+
+</div>
+
+<div class="label-container">
+<p class="label-5">Lösningen</p>
+
+##Spot - en plats att träna på.
+
+Dessa tre sprintar resulterade visade
+
+Den första sprinten visade genom ett explaratory test att användarna inte har någon specifik tjänst de vänder sig till när de ska söka efter nya platser att träna på. Vilket lade grunden för nästkommande sprintar vilka utforskade grundläggande funktionalitet (sprint 2) och vilken specifik information som användaren vill se på en specifik motinosplats (sprint 3). Nedan är en mockup på hur denna tjänst skulle se ut baserad på föregående sprintar.
+
+<img src="spot-hel.png" alt="Spot: en plats att träna på">
+
+</div>
