@@ -49,13 +49,6 @@ class BlogPostTemplate extends React.Component {
           <section className="post">
             <div className="image-post">
               <Img fluid={post.frontmatter.image.childImageSharp.fluid} />
-              <div className="post-card">
-                <h1>{post.frontmatter.title}</h1>
-                <h3>{post.frontmatter.subtitle}</h3>
-
-                {/*<p>{siteDescription}</p>*/}
-                {/* <p style={{ color: 'red' }}>{post.frontmatter.date}</p> */}
-              </div>
             </div>
             <div className="container_post_page ">
               <div className="hero_arrow">
@@ -67,10 +60,16 @@ class BlogPostTemplate extends React.Component {
                     {post.frontmatter.description}
                   </p>
 
-                  <div
-                    className="post_content "
-                    dangerouslySetInnerHTML={{ __html: post.html }}
-                  />
+                  <div className="post-container">
+                    <div className="post-card">
+                      <h1>{post.frontmatter.title}</h1>
+                      <h3>{post.frontmatter.subtitle}</h3>
+                    </div>
+                    <div
+                      className="post_content "
+                      dangerouslySetInnerHTML={{ __html: post.html }}
+                    />
+                  </div>
                 </div>
               </article>
             </div>

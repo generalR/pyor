@@ -7,7 +7,7 @@ label3: 'Iteration 1'
 label4: 'Iteration 2'
 label5: 'Iteration 3'
 label6: 'Lösningen'
-description: 'This article is part of a new series in which our Accessibility, Anti-Discrimination, Localization, and Trust teams will share how we define inclusive design practices at Airbnb, our ongoing work to design solutions for global communities, and lessons we’re learning along the way.'
+description: ''
 date: '2015-06-01T22:12:03.284Z'
 image: 'lamp.jpg'
 ---
