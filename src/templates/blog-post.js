@@ -47,8 +47,8 @@ class BlogPostTemplate extends React.Component {
           </div>
 
           <section className="post">
-            <Img fluid={post.frontmatter.image.childImageSharp.fluid} />
-            <div className="container_post_page ">
+            <div className="image-post">
+              <Img fluid={post.frontmatter.image.childImageSharp.fluid} />
               <div className="post-card">
                 <h1>{post.frontmatter.title}</h1>
                 <h3>{post.frontmatter.subtitle}</h3>
@@ -56,11 +56,13 @@ class BlogPostTemplate extends React.Component {
                 {/*<p>{siteDescription}</p>*/}
                 {/* <p style={{ color: 'red' }}>{post.frontmatter.date}</p> */}
               </div>
+            </div>
+            <div className="container_post_page ">
               <div className="hero_arrow">
                 <div className="hero_arrow_wrap" />
               </div>
               <article className="row center-xs end-md center-lg">
-                <div className="col-xs-12 col-md-8 col-lg-offset-3">
+                <div className="col-xs-12 col-sm-12 col-md-8 col-lg-offset-3">
                   <p className="article-intro">
                     {post.frontmatter.description}
                   </p>

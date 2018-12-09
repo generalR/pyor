@@ -8,7 +8,7 @@ label4: 'Iteration 2'
 label5: 'Iteration 3'
 label6: 'Lösningen'
 description: ''
-date: '2015-05-01T22:12:03.284Z'
+date: '2017-05-01T22:12:03.284Z'
 image: 'bilvarden.png'
 ---
 
@@ -17,67 +17,34 @@ image: 'bilvarden.png'
 
 ##Pilottest
 
-Bilvården är en protoyp som jag har byggde i samband med ett pilottest till en masterkurs på Karlstad universitet. inom psykologin finns ett begrepp som kallas priming vilket innebär att din perception påvekas av hur Huvudsyftet med denna prototyp är att undersöka om
-
-  </div>
-
-<div class="label-container">
-<p class="label-2">Sprint 1</p>
-
-##Hur går användarna tillväga för att finna nya träningsplatser utomhus?
-
-Det första steget i detta test var att testpersonerna fick visa testmoderatorn hur de idag gör när de söker efter platser att träna på. Vidare geonfördes en så kallad “walk through” i en hypotetisk app byggd ned Adobe Xd. Detta gjordes för att ge testpersonerna en mentalmodell av applikationen innan de trädde in i en fokusgrupp för att fritt diskutera ideer och förslag på tänkbara funktioner som skulle kunna ta plats i en framtida produkt.
-
-###Metoder
-
-- Observations test
-- Exploratory test av en app
-- Intervju av användare efter testet
-
-- Focus grupp för att genera ideer
+Bilvården är en protoyp som jag har byggde i samband med ett pilottest till en masterkurs på Karlstad universitet. Syftet med detta pilottest är att undersöka om psykologins prajming har någon effekt på testdeltagarens utförande i ett användartest.
 
 </div>
 
 <div class="label-container">
-<p class="label-3">Sprint 2</p>
+<p class="label-2">Priming</p>
 
-##Är funktionaliteten av värde för användaren?
-
-Det nästföljande användartest baserades på resultaten av det första testet vilket lade grunden till en ny prototyp utvecklades i Adobe Xd. Gränssnittet baserades på de förslag och ideer som har allra största chans att nå en slutgiltig produkt från föregående test. Ett användartest genomfördes på denna prototyp där syftet var att undersöka hur väl användargränssnittet hjälper användarna att utföra vanliga rutinuppgifter, som till exempel att kunna navigera till en plats att motionera på.
-
-###Metoder
-
-- Prototyp i Adobe XD
-- Användartest
-- Intervju av användare efter testet
-
-  </div>
-
-<div class="label-container">
-<p class="label-4">Sprint 3</p>
-
-##Vilken information vill användaren egentligen se på en motionsplats?
-
-Detta sista användartestet i denna serie av tester har till syftet att undersöka vilken information användarna helst vill ha presenterad på en specifik motionsplats. Liksom i första användartestet planterades en mental modell hos testdeltagarna genom att en “walk through” genomfördes av ett tänkbart scenario som tar testpersonen till en motionsplats i appen.
-
-###Metoder
-
-- Prototyp i Adobe XD
-- Användartest - Prioriteringar av information som visas i appen
-
-- Intervju av användare efter testet
+Inom psykologin diskuteras ett fenomen benämnt prajming. Detta fenomen beskrivs vara en omedveten form av minne som påverkas av vår perception vid identifieringen av ord och objekt. Exempelvis sker detta när en person får se färgen grön vilket gör att denne snabbare känner ingen ordet gräsmatta. Detta beror på att ordet grön är nära associerat i minnet med gräs. På detta sätt, menar man, påverkar omedvetna associationer våra handlingar omedvetet.
 
 </div>
 
 <div class="label-container">
-<p class="label-5">Lösningen</p>
+<p class="label-3">Genomförande</p>
 
-##Spot - en plats att träna på.
+Studien genomfördes med hjälp av användartester på en webplats, sex stycken testdeltagare medverkade i testet. Testdeltagarna delades upp i två grupper, varav den ena gruppen utförde användartest utan att bli prajmade innan testet och den andra gruppen blev prajmade med en kort film innan testet.
 
-Dessa tre sprintar resulterade visade
+###Metoder
 
-Den första sprinten visade genom ett explaratory test att användarna inte har någon specifik tjänst de vänder sig till när de ska söka efter nya platser att träna på. Vilket lade grunden för nästkommande sprintar vilka utforskade grundläggande funktionalitet (sprint 2) och vilken specifik information som användaren vill se på en specifik motinosplats (sprint 3). Nedan är en mockup på hur denna tjänst skulle se ut baserad på föregående sprintar.
+- Prototyp i html, css och Javascript
+- Användartester
+
+  </div>
+
+<div class="label-container">
+<p class="label-3">Resultat</p>
+
+Resultatet i studien påvisar att de testdeltagare som innan användartestet blivit prajmade lyckades lösa uppgifterna snabbare. Resultatet demonstrerar således effekten av prajming.
+
+</div>
 
 <img src="spot-hel.png" alt="Spot: en plats att träna på">
-
-</div>

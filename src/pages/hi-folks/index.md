@@ -1,20 +1,26 @@
 ---
 title: Tvetydiga koncept i en kravspecifikation
 subtitle: 'Mobile First And Responsive Design'
-label1: 'Case'
-label2: 'Metod'
-label3: 'Iteration 1'
-label4: 'Iteration 2'
-label5: 'Iteration 3'
-label6: 'Lösningen'
-description: 'Här ska det komma en förklaring på vad detta är. ftersom webbdesign är relativt nytt område lånas begrepp från det närbesläktade området grafisk design. Browserfönstret kallas till exempel för “canvas” och begreppet “whitespace” används för att beskriva tomma ytor på canvasen (Marcotte, 2011, 2). Samtidigt som IT-branschen utvecklas snabbt, uppstår nya begrepp och koncept för att beskriva lösningar på problem. Exempel på koncept är “Responsive Design” och “Mobile First”. '
-date: '2015-05-28T22:40:32.169Z'
+label1: ''
+label2: ''
+label3: ''
+label4: ''
+label5: ''
+label6: ''
+description: ''
+date: '2015-07-28T22:40:32.169Z'
 image: 'tve.png'
 ---
 
+<p class="label-2">Case</p>
+
+Denna essä skrev jag till masterkurs på Karlstad universitet. Den berör koncepten Mobile First och Responsiv design vilka båda är svåra begrepp att förstå för en novis person inom it. Jag reder ut vad de båda begreppen som författarna Luke Wroblewski och Ethan Marcotte beskriver i respektive böcker samt kommer med inspel på vad som saknas och hur koncepten kan förbättras. Den blev väldigt uppskattad och används nu i undervisningen på universitet.
+
+<p class="label-2">Tvetydiga koncept</p>
+
 ## Introduktion
 
-Eftersom webbdesign är relativt nytt område lånas begrepp från det närbesläktade området grafisk design. Browserfönstret kallas till exempel för “canvas” och begreppet “whitespace” används för att beskriva tomma ytor på canvasen (Marcotte, 2011, 2). Samtidigt som IT-branschen utvecklas snabbt, uppstår nya begrepp och koncept för att beskriva lösningar på problem. Exempel på koncept är “Responsive Design” och “Mobile First”. Min fråga blir då vilka konsekvenser detta får ur ett användarperspektiv när nya och kanske tvetydiga begrepp inkluderas i en kravspecifikation. Eftersom att dessa två koncept är framtagna för att skapa mer användbara användargränssnitt kommer jag att titta närmare på hur de båda författarna som introducerade dessa båda begreppen – Marcotte (2011) resp. Wroblewski (2011) – anser att man ska verifiera användbarheten när koncepten applicerats. Vidare kommer jag att komma med inspel och förbättringsförslag där jag anser att författarnas verifieringsmetoder brister ur ett användarperspektiv.
+Eftersom webbdesign är relativt nytt område lånas begrepp från det närbesläktade området grafisk design. Browserfönstret kallas till exempel för “canvas” och begreppet “whitespace” används för att beskriva tomma ytor på canvasen (Marcotte, 2011, 2). Samtidigt som IT-branschen utvecklas snabbt, uppstår nya begrepp och koncept för att beskriva lösningar på problem. Exempel på koncept är “Responsive Design” och “Mobile First”. Jag ställer mig frågande i vilka konsekvenser detta får ur ett användarperspektiv när nya och kanske tvetydiga begrepp inkluderas i en kravspecifikation. Eftersom att dessa två koncept är framtagna för att skapa mer användbara användargränssnitt kommer jag att titta närmare på hur de båda författarna som introducerade dessa båda begreppen – Marcotte (2011) resp. Wroblewski (2011) – anser att man ska verifiera användbarheten när koncepten applicerats. Vidare kommer jag att komma med inspel och förbättringsförslag där jag anser att författarnas verifieringsmetoder brister ur ett användarperspektiv.
 
 ### Lösningen på ett nytt problem
 

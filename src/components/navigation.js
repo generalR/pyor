@@ -32,7 +32,7 @@ class Navigation extends React.Component {
           <div className="col-xs-4  ">
             <nav id="main_nav">
               <div id="" class="mobile-nav">
-                <div class="ul">
+                <div class="mobile-nav-container">
                   <Link className="nav-item" to={'/'}>
                     Hem
                   </Link>
@@ -42,12 +42,19 @@ class Navigation extends React.Component {
                   <Link className="nav-item" to={'/cv'}>
                     CV
                   </Link>
+                  <div className="mail-adress-wrapper">
+                    <span className="mail-adress-mobile">
+                      E: roypers89@gmail.com
+                    </span>{' '}
+                    <br />
+                    <span className="mail-adress-mobile">T: +46 735747926</span>
+                  </div>
                 </div>
               </div>
             </nav>
           </div>
 
-          <div className="col-xs-offset-4 ">
+          <div className="col-xs-offset-4  ">
             <span className="mail_adress">E: roypers89@gmail.com</span> <br />
             <span className="mail_adress">T: +46 735747926</span>
           </div>

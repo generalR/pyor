@@ -6,7 +6,8 @@ class Footer extends React.Component {
     return (
       <footer className="">
         <div className="">
-          <p>Underbart är kort</p>
+          {/**   <p>Underbart är kort</p>
+           */}{' '}
         </div>
       </footer>
     )

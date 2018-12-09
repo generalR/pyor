@@ -55,7 +55,7 @@ class BlogIndex extends React.Component {
               const title = get(node, 'frontmatter.title') || node.fields.slug
               return (
                 <article
-                  className="lab-post col-xs-12 col-sm-12 col-md-6 col-lg-6"
+                  className="lab-post col-xs-12 col-sm-12 col-md-12 col-lg-12"
                   key={node.fields.slug}
                 >
                   <Link to={node.fields.slug}>

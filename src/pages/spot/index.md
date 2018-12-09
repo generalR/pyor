@@ -1,22 +1,22 @@
 ---
 title: 'Spot'
-subtitle: 'En plats att träna på'
+subtitle: 'Använder du också google för att hinna nya platser att träna på?'
 label2: ''
 label3: ''
 label4: ''
 label5: ''
 label6: ''
 description: ''
-date: '2015-05-01T22:12:03.284Z'
+date: '2015-08-01T22:12:03.284Z'
 image: 'spot.png'
 ---
 
 <div class="label-container">
 <p class="label-1">Case</p>
 
-##Genomförande
+## En nya plats att träna på
 
-Iden till appen Spot uppkom i samband med en masterkurst på Karlstad universitet vari en uppgift bestod av att utforska och test ett design koncept. Genom tre iterationer undersöker jag om de rekryterade testpersonerna upplever samma problem som jag gör, nämligen att det är svårt och tidskrävande att i en ny stad eller land finna platser att träna på utomhus. Tre designsprintar med olika metoder för att generera krav har använts.
+Iden till appen Spot uppkom i samband med en masterkurst på Karlstad universitet vari en uppgift bestod av att utforska och test ett nytt design koncept. Genom tre iterationer undersöker jag om de rekryterade testpersonerna upplever samma problem som jag gjorde. Nämligen att det är svårt och tidskrävande att i en ny stad eller land finna platser att träna på utomhus. Nedan följer en beskrivning av de tre designsprintar med tillhörande metoder för att generera krav.
 
   </div>
 

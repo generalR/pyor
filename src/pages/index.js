@@ -34,10 +34,12 @@ class BlogIndex extends React.Component {
                 <h1>Digital designer.</h1>
 
                 <h2>
-                  Jag har studerat till Interaktionsdesigner på Karlstad
-                  universitet. Min arbeten (länk krönika)änvänds i
-                  undervisningsyftet på bland annat Karlstad universitet och
-                  Kristanstads universitet. Några av dessa kan du se här (Länk).
+                  Hej, mitt namn är Roy. <br />
+                  Jag har en examen i Interaktionsdesign från Karlstad
+                  universitet och designar och bygger webbplatser med html, Css
+                  och Javascript. Den du surfar på nu är byggd med Gatsby JS
+                  Sedan Juni har jag också varit pappaledig till min 6 månaders
+                  dotter.
                 </h2>
               </div>
             </div>
