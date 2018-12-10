@@ -1,13 +1,6 @@
 ---
 title: 'Design Things and Design Thinking'
 subtitle: 'Contemporary Participatory Design Challenges'
-label1: 'Case'
-label2: 'Metod'
-label3: 'Iteration 1'
-label4: 'Iteration 2'
-label5: 'Iteration 3'
-label6: 'Lösningen'
-description: ''
 date: '2015-06-01T22:12:03.284Z'
 image: 'lamp.jpg'
 ---

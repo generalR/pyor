@@ -1,13 +1,6 @@
 ---
 title: Tvetydiga koncept i en kravspecifikation
 subtitle: 'Mobile First And Responsive Design'
-label1: ''
-label2: ''
-label3: ''
-label4: ''
-label5: ''
-label6: ''
-description: ''
 date: '2015-07-28T22:40:32.169Z'
 image: 'tve.png'
 ---

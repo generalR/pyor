@@ -1,13 +1,6 @@
 ---
 title: 'Bilvården'
 subtitle: 'Priming i kombination med användartester'
-label1: 'Case'
-label2: 'Metod'
-label3: 'Iteration 1'
-label4: 'Iteration 2'
-label5: 'Iteration 3'
-label6: 'Lösningen'
-description: ''
 date: '2017-05-01T22:12:03.284Z'
 image: 'bilvarden.png'
 ---
