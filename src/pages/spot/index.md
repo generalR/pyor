@@ -1,12 +1,6 @@
 ---
 title: 'Spot'
 subtitle: 'Använder du också google för att hinna nya platser att träna på?'
-label2: ''
-label3: ''
-label4: ''
-label5: ''
-label6: ''
-description: ''
 date: '2015-08-01T22:12:03.284Z'
 image: 'spot.png'
 ---

@@ -135,7 +135,6 @@ export const pageQuery = graphql`
             date(formatString: "DD MMMM, YYYY")
             title
             subtitle
-            description
             image {
               childImageSharp {
                 fluid(maxWidth: 1280, grayscale: true) {
