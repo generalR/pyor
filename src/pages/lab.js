@@ -28,8 +28,8 @@ class BlogIndex extends React.Component {
               <h1>Projekt.</h1>
               <h2>
                 På den här sidan hittar du en blandning av de webbplatser jag
-                byggt tillsammans med projekt jag varit delaktig till några av
-                de texter jag skrivit som används i undervisningen på Karlstad
+                byggt tillsammans med projekt jag genomfört till några av de
+                texter jag skrivit som används i undervisningen på Karlstad
                 universitet.
               </h2>
             </div>

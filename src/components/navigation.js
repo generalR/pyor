@@ -31,8 +31,8 @@ class Navigation extends React.Component {
         <div className="row menu_wrapper menu">
           <div className="col-xs-4  ">
             <nav id="main_nav">
-              <div id="" class="mobile-nav">
-                <div class="mobile-nav-container">
+              <div id="" className="mobile-nav">
+                <div className="mobile-nav-container">
                   <Link className="nav-item" to={'/'}>
                     Hem
                   </Link>

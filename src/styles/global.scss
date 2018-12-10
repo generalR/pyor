@@ -9,7 +9,8 @@ detta exempel rosa medium.muz.li/design-docs-6bb34589f7a9 . */
 html,
 body {
   font-family: 'roboto', 'sans-serif';
-  //color: #3d464d;
+  color: #111111;
+  background: #f7f7f7;
 }
 
 p {
@@ -130,7 +131,7 @@ svg {
 }
 
 header {
-  background: #fff;
+  //background: ##FFFFFF;
   &.container {
     padding-top: 63px;
     padding-bottom: 150px;
@@ -215,7 +216,7 @@ header {
   position: relative;
   //max-width: 100%;
   width: 65%;
-  background: #fff;
+  background: #f7f7f7;
 
   display: flex;
   flex-direction: column;
@@ -282,7 +283,7 @@ header {
     padding-right: 5%;
     padding-top: 10px;
     */
-    background: #fff;
+    background: #f7f7f7;
     text-align: left;
 
     padding: 10px 32px 32px 0;
@@ -369,6 +370,17 @@ header {
 }
 .cv-description-wrapper {
   margin-bottom: 100px;
+  .role-description {
+    font-size: 14px;
+    font-weight: 300;
+    color: #606e78;
+    letter-spacing: 0.7px;
+  }
+  h2,
+  h3 {
+    margin-bottom: 8px;
+    margin-top: 5px;
+  }
 }
 
 .row {
