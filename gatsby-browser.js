@@ -58,9 +58,7 @@ exports.onRouteUpdate = () => {
   }
 
   $(document).ready(function() {
-    console.log('document.ready')
     $('.toggle').click(function() {
-      console.log('toggle cklik')
       $('.mobile-nav').toggleClass('active')
     })
   })
