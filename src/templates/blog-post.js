@@ -9,12 +9,6 @@ import Layout from '../components/layout'
 class BlogPostTemplate extends React.Component {
   render() {
     let post = this.props.data.markdownRemark
-    console.log(post)
-
-    if (post.frontmatter.title == 'test') {
-      console.log(post.frontmatter.title)
-      post.frontmatter.title = 'Detta funkade'
-    }
 
     const siteTitle = get(this.props, 'data.site.siteMetadata.title')
     const siteDescription = post.excerpt

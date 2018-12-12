@@ -63,15 +63,6 @@ exports.onRouteUpdate = () => {
       console.log('toggle cklik')
       $('.mobile-nav').toggleClass('active')
     })
-
-    /*$('.navbutton').click(function() {
-      console.log('navbutton cklik')
-      console.log($('overlay').slideDown())
-    })*/
   })
-
-  console.log('-------------------------------------onRouteUpdate')
 }
-exports.onClientEntry = () => {
-  console.log('-------------------------------------onClientEntry')
-}
+exports.onClientEntry = () => {}
